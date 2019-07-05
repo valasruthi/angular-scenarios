@@ -1,0 +1,12 @@
+
+
+<div>
+    <h3>Data Binding Task-5</h3>
+    <p>Displaying text from child component to grand-parent component</p>
+
+    <h3>I am getting this message from grand child</h3>
+
+    <h3> {{message}} </h3>
+
+    <app-task-five-child (childEvent)="message=$event"></app-task-five-child>
+</div>

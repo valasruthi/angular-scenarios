@@ -1,0 +1,10 @@
+
+<div class="main">
+    <h3>Data Binding Task-6</h3>
+    <p>Displaying text entered in one child component to another child component of the same parent component using Decorators</p>
+    <div class="components">
+        <app-task-six-child1 (childEvent)="childMessage=$event"></app-task-six-child1>
+
+        <app-task-six-child2 [parentData]="childMessage"></app-task-six-child2>
+    </div>
+</div>
